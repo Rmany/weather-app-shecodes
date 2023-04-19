@@ -1,0 +1,78 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  border: solid;
+  border-radius: 5%;
+  border-color: rgb(0, 0, 0, 0.2);
+  margin: 20px 40px;
+  padding: 50px 20px 20px 20px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 6vw;
+  margin: 0;
+}
+h2 {
+  font-weight: 500;
+  font-size: 5vw;
+  margin: 0;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
+form {
+  margin: 50px auto;
+}
+button {
+  padding: 5px 10px;
+  margin: 10px;
+}
+.top,
+.bottom {
+  margin-bottom: 30px;
+}
+.bottom {
+  border: solid;
+  border-color: rgb(0, 0, 0, 0.1);
+  border-radius: 15%;
+  padding: 20px 0px;
+}
+.weather-icon {
+  font-size: 50px;
+}
+.weather-icon:hover {
+  font-size: 52px;
+}
+.cloudy {
+  color: #d9d9d9;
+}
+.sunny-spells {
+  color: #fbfdb2;
+}
+.sunny {
+  color: #f6be5e;
+}
+.light-rain {
+  color: #bac2e7;
+}
+.current-day {
+  font-weight: 700;
+  font-size: 24px;
+  text-size-adjust: auto;
+}
+.daily-temp .high-temp {
+  font-weight: bold;
+}
+.feature-day .weather-icon {
+  font-size: 100px;
+}
+.feature-day .weather-icon:hover {
+  font-size: 105px;
+}
+.feature-day .daily-temp {
+  font-size: 20px;
+}
