@@ -26,96 +26,104 @@
   </head>
   <body>
     <div class="container text-center">
-      <div class="row top">
-        <div class="col-7">
-          <p class="current-day" id="current-day">Wednesday</p>
-          <p class="current-date" id="current-date">22-Mar-2023</p>
-          <form class="search" id="city-search">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Search"
-              id="city-input"
-            />
-            <button
-              type="button"
-              class="btn btn-outline-success"
-              id="current-location-button"
-            >
-              Current Location
-            </button>
-          </form>
-        </div>
+      <div class="outside-border">
+        <div class="row top">
+          <div class="col-7">
+            <p class="current-day" id="current-day">Wednesday</p>
+            <p class="current-date" id="current-date">22-Mar-2023</p>
+            <form class="search" id="city-search">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                id="city-input"
+              />
+              <button
+                type="button"
+                class="btn btn-outline-success"
+                id="current-location-button"
+              >
+                Current Location
+              </button>
+            </form>
+          </div>
 
-        <div class="col-5 feature-day">
-          <i class="fa-solid fa-cloud-rain weather-icon light-rain"></i>
-          <br />
-          <div class="city">
-            <h1 id="city-name"></h1>
-            <h2 id="current-temp"></h2>
-          </div>
-          <div class="daily-temp">
-            <span class="high-temp" id="high-temp"></span>
+          <div class="col-5 feature-day">
+            <i class="fa-solid fa-cloud-rain weather-icon light-rain"></i>
+            <br />
+            <div class="city">
+              <h1 id="city-name"></h1>
+              <h2 id="current-temp"></h2>
+            </div>
+            <div class="daily-temp">
+              <span class="high-temp" id="high-temp"></span>
 
-            <span class="low-temp" id="low-temp"></span>
+              <span class="low-temp" id="low-temp"></span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row bottom">
-        <div class="col-1"></div>
-        <div class="col-2">
-          <i class="fa-solid fa-cloud weather-icon cloudy"></i>
-          <br />
-          <div class="day">Thursday</div>
-          <div class="daily-temp">
-            <span class="high-temp">12°C /</span>
-            <span class="low-temp"> 5°C</span>
+        <div class="row bottom">
+          <div class="col-1"></div>
+          <div class="col-2">
+            <i class="fa-solid fa-cloud weather-icon cloudy"></i>
+            <br />
+            <div class="day">Thursday</div>
+            <div class="daily-temp">
+              <span class="high-temp">12°C /</span>
+              <span class="low-temp"> 5°C</span>
+            </div>
           </div>
-        </div>
-        <div class="col-2">
-          <i class="fa-solid fa-cloud-sun weather-icon sunny-spells"></i>
-          <br />
-          <div class="day">Friday</div>
-          <div class="daily-temp">
-            <span class="high-temp">12°C /</span>
-            <span class="low-temp"> 5°C</span>
+          <div class="col-2">
+            <i class="fa-solid fa-cloud-sun weather-icon sunny-spells"></i>
+            <br />
+            <div class="day">Friday</div>
+            <div class="daily-temp">
+              <span class="high-temp">12°C /</span>
+              <span class="low-temp"> 5°C</span>
+            </div>
           </div>
-        </div>
-        <div class="col-2">
-          <i class="fa-regular fa-sun weather-icon sunny"></i>
-          <br />
-          <div class="day">Saturday</div>
-          <div class="daily-temp">
-            <span class="high-temp">12°C /</span>
-            <span class="low-temp"> 5°C</span>
+          <div class="col-2">
+            <i class="fa-regular fa-sun weather-icon sunny"></i>
+            <br />
+            <div class="day">Saturday</div>
+            <div class="daily-temp">
+              <span class="high-temp">12°C /</span>
+              <span class="low-temp"> 5°C</span>
+            </div>
           </div>
-        </div>
-        <div class="col-2">
-          <i class="fa-regular fa-sun weather-icon sunny"></i>
-          <br />
-          <div class="day">Sunday</div>
-          <div class="daily-temp">
-            <span class="high-temp">12°C /</span>
-            <span class="low-temp"> 5°C</span>
+          <div class="col-2">
+            <i class="fa-regular fa-sun weather-icon sunny"></i>
+            <br />
+            <div class="day">Sunday</div>
+            <div class="daily-temp">
+              <span class="high-temp">12°C /</span>
+              <span class="low-temp"> 5°C</span>
+            </div>
           </div>
-        </div>
-        <div class="col-2">
-          <i class="fa-solid fa-cloud-rain weather-icon light-rain"></i>
-          <br />
-          <div class="day">Monday</div>
-          <div class="daily-temp">
-            <span class="high-temp">12°C /</span>
-            <span class="low-temp"> 5°C</span>
+          <div class="col-2">
+            <i class="fa-solid fa-cloud-rain weather-icon light-rain"></i>
+            <br />
+            <div class="day">Monday</div>
+            <div class="daily-temp">
+              <span class="high-temp">12°C /</span>
+              <span class="low-temp"> 5°C</span>
+            </div>
           </div>
+          <div class="col-1"></div>
         </div>
-        <div class="col-1"></div>
-      </div>
-      <div class="units">
-        <a href="#" id="celsius">°C</a>
-        <span> | </span>
-        <a href="#" id="fahrenheit">°F</a>
+        <div class="units">
+          <a href="#" id="celsius">°C</a>
+          <span> | </span>
+          <a href="#" id="fahrenheit">°F</a>
+        </div>
       </div>
     </div>
+    <p>
+      <a href="https://github.com/Rmany/weather-app-shecodes"
+        >Open Source Code</a
+      >
+      coded by Martha Germany
+    </p>
     <script src="javascript/script.js"></script>
   </body>
 </html>
